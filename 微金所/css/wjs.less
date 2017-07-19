@@ -1,0 +1,53 @@
+@import "wjsfont.less";
+.wjs_tool {
+    .row {
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #000;
+        .app {
+            border-right: 1px solid #000;
+            a {
+                img {
+                    display: none;
+                }
+                &:hover img {
+                    display: block; // color: red;
+                    position: absolute;
+                    z-index: 3;
+                    left: 51px;
+                    top: 53px;
+                }
+            }
+        }
+        .searve {
+            border-right: 1px solid #000;
+        }
+        .propri {
+            border-right: 1px solid #000;
+        }
+        .zhulog {}
+    }
+}
+
+.wjs_nav {
+    .navbar-nav {
+        li.active {
+            width: 157px;
+            height: 80px;
+            a {
+                padding: 0;
+                span {
+                    height: 80px;
+                    font-size: 70px;
+                    color: red
+                }
+            }
+        }
+        li:nth-last-of-type(-n+6) {
+            a {
+                padding-top: 28px;
+                color: yellow;
+            }
+        }
+    }
+}
